@@ -6,7 +6,7 @@
 ## JavaScript Basics
 
 <details>
-<summary><h3 style="display:inline; " >1. What is JavaScript and where is it executed?</h3></summary>
+<summary><strong>1. What is JavaScript and where is it executed?</strong></summary>
 
 **Interviewer:** Could you explain what JavaScript is and the various environments where it can be executed?
 
@@ -23,7 +23,7 @@ The language itself is dynamically typed and supports both functional and object
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >2. What are the primitive data types in JavaScript?</h3></summary>
+<summary><strong>2. What are the primitive data types in JavaScript?</strong></summary>
 
 **Interviewer:** How many primitive data types exist in JavaScript?
 
@@ -36,7 +36,7 @@ An important characteristic of primitives is that they are immutable and passed 
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >3. What is the difference between var, let, and const?</h3></summary>
+<summary><strong>3. What is the difference between var, let, and const?</strong></summary>
 
 **Interviewer:** Could you explain the distinctions between var, let, and const?
 
@@ -64,7 +64,7 @@ In modern JavaScript development, the recommended practice is to use const by de
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >4. Explain hoisting in JavaScript.</h3></summary>
+<summary><strong>4. Explain hoisting in JavaScript.</strong></summary>
 
 **Interviewer:** Could you explain the concept of hoisting and how it affects different types of declarations?
 
@@ -94,7 +94,7 @@ Modern practice with let and const provides better safety characteristics, as th
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >5. What is the difference between == and ===?</h3></summary>
+<summary><strong>5. What is the difference between == and ===?</strong></summary>
 
 **Interviewer:** When would you choose to use == versus ===?
 
@@ -115,7 +115,7 @@ In production code, strict equality is h3ly recommended to avoid the subtle bugs
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >6. What is undefined vs null?</h3></summary>
+<summary><strong>6. What is undefined vs null?</strong></summary>
 
 **Interviewer:** Could you clarify the distinction between undefined and null?
 
@@ -136,7 +136,7 @@ In practice, undefined is typically used for values that JavaScript has automati
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >7. What is NaN? How do you check if a value is NaN?</h3></summary>
+<summary><strong>7. What is NaN? How do you check if a value is NaN?</strong></summary>
 
 **Interviewer:** Can you explain NaN and the proper way to check for it?
 
@@ -154,7 +154,7 @@ For reliable NaN detection, `Number.isNaN()` is the appropriate choice.
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >8. What is a JavaScript object?</h3></summary>
+<summary><strong>8. What is a JavaScript object?</strong></summary>
 
 **Interviewer:** Could you describe what objects are in JavaScript?
 
@@ -170,7 +170,7 @@ A crucial distinction from primitives is that when you pass an object to a funct
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >9. What is an array and how is it different from an object?</h3></summary>
+<summary><strong>9. What is an array and how is it different from an object?</strong></summary>
 
 **Interviewer:** How would you distinguish arrays from objects?
 
@@ -192,7 +192,7 @@ An important detail is that arrays are actually specialized objects in JavaScrip
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >10. What is the typeof operator?</h3></summary>
+<summary><strong>10. What is the typeof operator?</strong></summary>
 
 **Interviewer:** What does the `typeof` operator do, and what should developers be aware of?
 
@@ -214,7 +214,7 @@ Given these limitations, typeof is not always reliable for type checking. For mo
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >11. What is a function in JavaScript?</h3></summary>
+<summary><strong>11. What is a function in JavaScript?</strong></summary>
 
 **Interviewer:** What characteristics make functions special in JavaScript?
 
@@ -230,7 +230,7 @@ Additionally, functions have a particularly powerful feature called closures. Fu
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >12. What is the difference between function declaration and function expression?</h3></summary>
+<summary><strong>12. What is the difference between function declaration and function expression?</strong></summary>
 
 **Interviewer:** How do these two approaches differ, particularly with respect to hoisting?
 
@@ -256,7 +256,7 @@ Function declarations are more forgiving of ordering, while function expressions
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >13. What is an arrow function?</h3></summary>
+<summary><strong>13. What is an arrow function?</strong></summary>
 
 **Interviewer:** What are the distinctive features of arrow functions?
 
@@ -276,7 +276,7 @@ This behavior is particularly valuable for callback functions where you need to 
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >14. How does JavaScript handle type coercion?</h3></summary>
+<summary><strong>14. How does JavaScript handle type coercion?</strong></summary>
 
 **Interviewer:** Could you explain how JavaScript handles type coercion?
 
@@ -296,7 +296,7 @@ This automatic conversion is why using strict equality `===` instead of loose eq
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >15. What is a template literal?</h3></summary>
+<summary><strong>15. What is a template literal?</strong></summary>
 
 **Interviewer:** What are template literals and what advantages do they offer?
 
@@ -316,7 +316,7 @@ This provides significantly better readability and maintainability compared to t
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >16. What are truthy and falsy values?</h3></summary>
+<summary><strong>16. What are truthy and falsy values?</strong></summary>
 
 **Interviewer:** How many falsy values exist in JavaScript?
 
@@ -334,7 +334,7 @@ Everything else evaluates to true, which is an important detail. Notably, empty 
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >17. What is the difference between slice, splice, and substring?</h3></summary>
+<summary><strong>17. What is the difference between slice, splice, and substring?</strong></summary>
 
 **Interviewer:** Could you differentiate between these three methods?
 
@@ -360,7 +360,7 @@ In contemporary JavaScript development, slice is preferred due to its non-destru
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >18. What is the this keyword?</h3></summary>
+<summary><strong>18. What is the this keyword?</strong></summary>
 
 **Interviewer:** Could you explain what `this` refers to?
 
@@ -389,7 +389,7 @@ Understanding `this` binding is essential for writing bug-free JavaScript, parti
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >19. What is the difference between null and undefined in practical use?</h3></summary>
+<summary><strong>19. What is the difference between null and undefined in practical use?</strong></summary>
 
 **Interviewer:** When would you use null versus undefined in your code?
 
@@ -413,7 +413,7 @@ In designing APIs or data structures, maintaining consistency about which value 
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >20. What is strict mode ("use strict")?</h3></summary>
+<summary><strong>20. What is strict mode ("use strict")?</strong></summary>
 
 **Interviewer:** What does strict mode accomplish?
 
@@ -438,7 +438,7 @@ In designing APIs or data structures, maintaining consistency about which value 
 ## JavaScript Core Concepts
 
 <details>
-<summary><h3 style="display:inline; " >21. What is scope in JavaScript?</h3></summary>
+<summary><strong>21. What is scope in JavaScript?</strong></summary>
 
 **Interviewer:** Could you explain what scope is?
 
@@ -458,7 +458,7 @@ An important distinction is that var ignores block scope and can leak out of con
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >22. What is block scope vs function scope?</h3></summary>
+<summary><strong>22. What is block scope vs function scope?</strong></summary>
 
 **Interviewer:** How do these two scoping models differ?
 
@@ -477,7 +477,7 @@ Block scope provides superior encapsulation and prevents accidental variable acc
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >23. What is a closure?</h3></summary>
+<summary><strong>23. What is a closure?</strong></summary>
 
 **Interviewer:** What is a closure?
 
@@ -496,7 +496,7 @@ An important consideration is that closures maintain references to outer variabl
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >24. What is the execution context?</h3></summary>
+<summary><strong>24. What is the execution context?</strong></summary>
 
 **Interviewer:** What constitutes an execution context?
 
@@ -516,7 +516,7 @@ These contexts are organized in a stack structure, which is the foundation of th
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >25. What is the call stack?</h3></summary>
+<summary><strong>25. What is the call stack?</strong></summary>
 
 **Interviewer:** How does the call stack operate?
 
@@ -537,7 +537,7 @@ Stack overflow occurs when the stack exceeds its maximum size, typically caused 
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >26. What is the event loop?</h3></summary>
+<summary><strong>26. What is the event loop?</strong></summary>
 
 **Interviewer:** Could you explain how the event loop works?
 
@@ -559,7 +559,7 @@ Understanding the event loop is essential for writing performant asynchronous co
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >27. What is the difference between synchronous and asynchronous code?</h3></summary>
+<summary><strong>27. What is the difference between synchronous and asynchronous code?</strong></summary>
 
 **Interviewer:** How would you define these two approaches?
 
@@ -582,7 +582,7 @@ JavaScript relies on asynchronous patterns to prevent blocking, which is critica
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >28. What are promises?</h3></summary>
+<summary><strong>28. What are promises?</strong></summary>
 
 **Interviewer:** What is a Promise and what advantages does it provide?
 
@@ -606,7 +606,7 @@ Promises form the foundation for modern async patterns, including async/await sy
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >29. What are the states of a Promise?</h3></summary>
+<summary><strong>29. What are the states of a Promise?</strong></summary>
 
 **Interviewer:** What states can a Promise transition through?
 
@@ -631,7 +631,7 @@ A critical characteristic is that **once a Promise transitions to either fulfill
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >30. What is async/await?</h3></summary>
+<summary><strong>30. What is async/await?</strong></summary>
 
 **Interviewer:** What is async/await and what benefits does it provide?
 
@@ -654,7 +654,7 @@ This approach provides substantially better readability and maintainability comp
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >31. How does error handling work in async/await?</h3></summary>
+<summary><strong>31. How does error handling work in async/await?</strong></summary>
 
 **Interviewer:** How should errors be handled in async functions?
 
@@ -676,7 +676,7 @@ An important consideration is that unhandled Promise rejections can cause your a
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >32. What is callback hell?</h3></summary>
+<summary><strong>32. What is callback hell?</strong></summary>
 
 **Interviewer:** What problems does callback hell present?
 
@@ -706,7 +706,7 @@ Async/await has effectively eliminated callback hell as a significant concern in
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >33. What is the difference between setTimeout and setInterval?</h3></summary>
+<summary><strong>33. What is the difference between setTimeout and setInterval?</strong></summary>
 
 **Interviewer:** How do these timing functions differ?
 
@@ -730,7 +730,7 @@ Async/await has effectively eliminated callback hell as a significant concern in
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >34. What are higher-order functions?</h3></summary>
+<summary><strong>34. What are higher-order functions?</strong></summary>
 
 **Interviewer:** How would you define higher-order functions?
 
@@ -754,7 +754,7 @@ Higher-order functions are fundamental to modern JavaScript and are used extensi
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >35. Explain map, filter, and reduce</h3></summary>
+<summary><strong>35. Explain map, filter, and reduce</strong></summary>
 
 **Interviewer:** Could you describe these three important array methods?
 
@@ -781,7 +781,7 @@ Higher-order functions are fundamental to modern JavaScript and are used extensi
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >36. What is immutability?</h3></summary>
+<summary><strong>36. What is immutability?</strong></summary>
 
 **Interviewer:** What does immutability mean in JavaScript?
 
@@ -798,7 +798,7 @@ While primitives are inherently immutable, objects and arrays require intentiona
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >37. What is shallow copy vs deep copy?</h3></summary>
+<summary><strong>37. What is shallow copy vs deep copy?</strong></summary>
 
 **Interviewer:** What distinguishes these two copying approaches?
 
@@ -821,7 +821,7 @@ Choose shallow copy when modifications are limited to the top level. Use deep co
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >38. What is the spread operator?</h3></summary>
+<summary><strong>38. What is the spread operator?</strong></summary>
 
 **Interviewer:** What capabilities does the `...` operator provide?
 
@@ -849,7 +849,7 @@ The spread operator provides significantly cleaner syntax compared to older meth
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >39. What is destructuring?</h3></summary>
+<summary><strong>39. What is destructuring?</strong></summary>
 
 **Interviewer:** Could you explain destructuring syntax?
 
@@ -880,7 +880,7 @@ Destructuring is used extensively in modern JavaScript code.
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >40. What is optional chaining (?.)?</h3></summary>
+<summary><strong>40. What is optional chaining (?.)?</strong></summary>
 
 **Interviewer:** What problem does optional chaining solve?
 
@@ -910,7 +910,7 @@ This approach makes defensive coding much cleaner and more readable.
 ## Intermediate & Practical
 
 <details>
-<summary><h3 style="display:inline; " >41. What is debouncing?</h3></summary>
+<summary><strong>41. What is debouncing?</strong></summary>
 
 **Interviewer:** What is the purpose of debouncing?
 
@@ -931,7 +931,7 @@ This reduces unnecessary function calls and improves overall application perform
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >42. What is throttling?</h3></summary>
+<summary><strong>42. What is throttling?</strong></summary>
 
 **Interviewer:** How does throttling differ from debouncing?
 
@@ -957,7 +957,7 @@ Throttling is appropriate for events that fire continuously and frequently.
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >43. What is memoization?</h3></summary>
+<summary><strong>43. What is memoization?</strong></summary>
 
 **Interviewer:** What does memoization accomplish?
 
@@ -982,7 +982,7 @@ Throttling is appropriate for events that fire continuously and frequently.
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >44. What is currying?</h3></summary>
+<summary><strong>44. What is currying?</strong></summary>
 
 **Interviewer:** Could you explain the currying technique?
 
@@ -1008,7 +1008,7 @@ Currying is a fundamental technique in functional programming.
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >45. What is event delegation?</h3></summary>
+<summary><strong>45. What is event delegation?</strong></summary>
 
 **Interviewer:** How does event delegation work?
 
@@ -1033,7 +1033,7 @@ Currying is a fundamental technique in functional programming.
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >46. How does this behave in arrow functions?</h3></summary>
+<summary><strong>46. How does this behave in arrow functions?</strong></summary>
 
 **Interviewer:** How does `this` behave differently in arrow functions?
 
@@ -1055,7 +1055,7 @@ Arrow functions are particularly useful in callbacks where you want to preserve 
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >47. What is the difference between bind, call, and apply?</h3></summary>
+<summary><strong>47. What is the difference between bind, call, and apply?</strong></summary>
 
 **Interviewer:** Could you compare these three methods?
 
@@ -1083,7 +1083,7 @@ Use call for immediate execution with individual arguments, apply for immediate 
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >48. What is prototype inheritance?</h3></summary>
+<summary><strong>48. What is prototype inheritance?</strong></summary>
 
 **Interviewer:** How does prototype inheritance operate?
 
@@ -1109,7 +1109,7 @@ This mechanism is fundamental to how JavaScript organizes object-oriented code.
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >49. What is the prototype chain?</h3></summary>
+<summary><strong>49. What is the prototype chain?</strong></summary>
 
 **Interviewer:** Could you explain the prototype chain?
 
@@ -1135,7 +1135,7 @@ Understanding the prototype chain is essential for comprehending how JavaScript 
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >50. What are ES6 modules?</h3></summary>
+<summary><strong>50. What are ES6 modules?</strong></summary>
 
 **Interviewer:** What are ES6 modules and why are they important?
 
@@ -1161,7 +1161,7 @@ This is the recommended approach for modern JavaScript modules.
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >51. Difference between CommonJS and ES modules</h3></summary>
+<summary><strong>51. Difference between CommonJS and ES modules</strong></summary>
 
 **Interviewer:** How do these module systems differ?
 
@@ -1183,7 +1183,7 @@ This is the recommended approach for modern JavaScript modules.
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >52. How does garbage collection work in JavaScript?</h3></summary>
+<summary><strong>52. How does garbage collection work in JavaScript?</strong></summary>
 
 **Interviewer:** How does JavaScript automatically manage memory?
 
@@ -1204,7 +1204,7 @@ Developers do not need to manually manage memory or trigger garbage collection. 
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >53. What causes memory leaks in JavaScript?</h3></summary>
+<summary><strong>53. What causes memory leaks in JavaScript?</strong></summary>
 
 **Interviewer:** What are common causes of memory leaks?
 
@@ -1231,7 +1231,7 @@ Memory leak prevention is particularly important in long-running applications.
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >54. How does JavaScript handle concurrency?</h3></summary>
+<summary><strong>54. How does JavaScript handle concurrency?</strong></summary>
 
 **Interviewer:** How does JavaScript manage concurrent operations?
 
@@ -1257,7 +1257,7 @@ This architecture results in responsive user interfaces and efficient I/O handli
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >55. What is a pure function?</h3></summary>
+<summary><strong>55. What is a pure function?</strong></summary>
 
 **Interviewer:** How would you define a pure function?
 
@@ -1280,7 +1280,7 @@ Pure functions form the foundation of functional programming approaches.
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >56. What is functional programming in JavaScript?</h3></summary>
+<summary><strong>56. What is functional programming in JavaScript?</strong></summary>
 
 **Interviewer:** What is the functional programming paradigm?
 
@@ -1311,7 +1311,7 @@ Modern JavaScript effectively combines functional and object-oriented approaches
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >57. What is lazy loading?</h3></summary>
+<summary><strong>57. What is lazy loading?</strong></summary>
 
 **Interviewer:** What is the purpose of lazy loading?
 
@@ -1333,7 +1333,7 @@ Modern web applications rely extensively on lazy loading strategies.
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >58. What is tree shaking?</h3></summary>
+<summary><strong>58. What is tree shaking?</strong></summary>
 
 **Interviewer:** Could you explain tree shaking?
 
@@ -1357,7 +1357,7 @@ Smaller bundles translate directly to faster downloads and improved application 
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >59. What happens when you await a non-promise value?</h3></summary>
+<summary><strong>59. What happens when you await a non-promise value?</strong></summary>
 
 **Interviewer:** What occurs when you await a non-Promise value?
 
@@ -1375,7 +1375,7 @@ Smaller bundles translate directly to faster downloads and improved application 
 </details>
 
 <details>
-<summary><h3 style="display:inline; " >60. How do you optimize JavaScript performance in a web application?</h3></summary>
+<summary><strong>60. How do you optimize JavaScript performance in a web application?</strong></summary>
 
 **Interviewer:** What approaches would you use to optimize application performance?
 
